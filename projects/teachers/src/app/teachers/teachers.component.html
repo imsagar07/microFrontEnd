@@ -1,0 +1,37 @@
+
+<nav>
+    <div class="logo">
+        <h4>{{'Teachers List'}}</h4>
+    </div>
+    <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+</nav>
+<div class="container">
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped" style="margin-top:100px">
+            <thead class="table__head">
+                <tr class="winner__table">
+                    <th>S/N</th>
+                    <th><i class="fa fa-user" aria-hidden="true"></i> Student name</th>
+                    <th><i class="fa fa-map-marker" aria-hidden="true"></i> Mobile</th>
+                    <th><i class="fa fa-calendar-o" aria-hidden="true"></i> Emaiil</th>
+                    <th> <i class="fa fa-phone" aria-hidden="true"></i>Class</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="winner__table" *ngFor="let data of teacherListData;let i=index">
+                    <td>{{i+1}}</td> 
+                    <td>{{data.name}}</td>
+                    <td>{{data.mobile}}</td>
+                    <td>{{data.email}}</td>
+                    <td>{{data.class}}</td>
+                </tr>
+
+               
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,24 @@
+{
+	"login": {
+		"remoteEntry": "http://localhost:4001/remoteEntry.js",
+		"exposedModule": "./Module",
+		"displayName": "login",
+		"routePath": "login",
+		"ngModuleName": "LoginModule"
+	},
+	"students": {
+		"remoteEntry": "http://localhost:4002/remoteEntry.js",
+		"exposedModule": "./Module",
+		"displayName": "students",
+		"routePath": "students",
+		"ngModuleName": "StudentsModule"
+	},
+	"teachers": {
+		"remoteEntry": "http://localhost:4003/remoteEntry.js",
+		"exposedModule": "./Module",
+		"displayName": "teachers",
+		"routePath": "teachers",
+		"ngModuleName": "TeachersModule"
+	}
+	
+}
