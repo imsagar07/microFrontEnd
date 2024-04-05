@@ -8,6 +8,5 @@ import { CustomManifest } from '../utils/config';
 })
 export class ConfigComponent {
 
-  manifest = getManifest<CustomManifest>();
 
 }
